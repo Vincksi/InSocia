@@ -103,6 +103,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- Built with Flask
-- Powered by AI and machine learning
-- Uses various social media APIs for integration
+- [smolagents](https://github.com/huggingface/smolagents) for the agent frameworkAdd commentMore actions
+- [Anthropic](https://www.anthropic.com/) for the AI model
+- [Twitter API](https://developer.twitter.com/)
+- [Reddit API](https://www.reddit.com/dev/api/)
+- [Flask](https://flask.palletsprojects.com/) for the web framework
