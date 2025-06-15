@@ -1,4 +1,4 @@
-# InSocia - AI-Powered Social Media Assistant
+# InSocia - AI-Powered Social Media Assistant for Growth Strategy
 
 InSocia is an intelligent social media assistant that helps you analyze, manage, and optimize your social media presence across multiple platforms. Using advanced AI technology, InSocia provides insights, automates content posting, and helps you make data-driven decisions for your social media strategy.
 
