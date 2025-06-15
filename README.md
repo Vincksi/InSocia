@@ -185,7 +185,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- [smolagents](https://github.com/smol-ai/smolagents) for the agent framework
+- [smolagents](https://github.com/huggingface/smolagents) for the agent framework
 - [Anthropic](https://www.anthropic.com/) for the AI model
 - [Twitter API](https://developer.twitter.com/)
 - [Reddit API](https://www.reddit.com/dev/api/)
