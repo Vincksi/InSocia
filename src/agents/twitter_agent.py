@@ -127,9 +127,11 @@ class TwitterAgent(BaseAgent):
     
     def __init__(self):
         """Initialize Twitter agent with necessary tools and services."""
+        self.name = "twitter_agent"
+        self.description = "Agent for creating and managing Twitter content"
         super().__init__(
-            name="Twitter Agent",
-            description="Agent for creating and managing Twitter content",
+            name=self.name,
+            description=self.description,
             tools=[post_tweet, get_user_timeline],
             temperature=0.7
         )

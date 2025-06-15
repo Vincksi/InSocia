@@ -202,9 +202,11 @@ class RedditAgent(BaseAgent):
     
     def __init__(self):
         """Initialize Reddit agent with necessary tools and services."""
+        self.name="reddit_agent"
+        self.description="Agent for creating and managing Reddit content"
         super().__init__(
-            name="Reddit Agent",
-            description="Agent for creating and managing Reddit content",
+            name=self.name,
+            description=self.description,
             tools=[publish_post, analyze_subreddit, comment_on_post, DuckDuckGoSearchTool()],
             temperature=0.7
         )

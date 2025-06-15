@@ -3,7 +3,7 @@ from typing import Dict, Any
 from urllib.parse import urlparse
 
 from smolagents import CodeAgent, LiteLLMModel, DuckDuckGoSearchTool
-from twitter_agent import twitter_agent 
+from src.agents.twitter_agent import twitter_agent 
 from src.agents.reddit_agent import reddit_agent
 from src.agents.web_agent import web_agent
 from src.config.settings import settings

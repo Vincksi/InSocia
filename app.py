@@ -12,7 +12,8 @@ logger = logging.getLogger(__name__)
 
 # Create Flask app with static folder configuration
 app = Flask(__name__, 
-    static_folder=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates/static'),
+    template_folder=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src/templates'),
+    static_folder=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src/static'),
     static_url_path='/static'
 )
 

@@ -89,9 +89,11 @@ class WebAgent(BaseAgent):
     
     def __init__(self):
         """Initialize Web agent with necessary tools and services."""
+        self.name="web_agent"
+        self.description="Agent for analyzing websites and extracting content"
         super().__init__(
-            name="Web Agent",
-            description="Agent for analyzing websites and extracting content",
+            name=self.name,
+            description=self.description,
             tools=[describe_company_from_url, profiler],
             temperature=0.5
         )
